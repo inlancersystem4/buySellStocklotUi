@@ -25,5 +25,10 @@ Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/inlancersystem4/buySellStocklotUi.git
+
 cd buySellStocklotUi
 ```
+
+
+
+npx tailwindcss -i ./assets/styles/input.css -o ./assets/styles/main.css --watch
