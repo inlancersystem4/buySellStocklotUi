@@ -558,7 +558,3 @@ html {
   font-family: "Source Sans 3", "sans-serif";
 }
 
-h1 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--dark-charcoal) / var(--tw-bg-opacity));
-}

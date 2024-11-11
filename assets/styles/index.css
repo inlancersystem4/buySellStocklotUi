@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
 :root {
-  --dark-charcoal: 0, 0%, 8%; /* #141414 */
-  --burnt-orange: 15, 84%, 60%; /* #EE6544 */
-  --light-gray: 210, 14%, 90%; /* #E5E7EB  */
-  --pure-white: 0, 0%, 100%; /* #FFFFFF  */
-  --deep-black: 0, 0%, 0%; /* #000000 */
-  --soft-cream: 39, 100%, 97%; /* #FFF6EB */
-  --blue-midnight: 211, 46%, 37%; /* #384B85 */
-  --off-white: 0, 0%, 94%; /* #EFEFEF */
-  --slate-gray: 210, 5%, 42%; /* #6B7280 */
-  --cool-gray: 210, 6%, 63%; /* #9CA3AF */
+  --dark-charcoal: 0 0% 8%; /* #141414 */
+  --burnt-orange: 15 84% 60%; /* #EE6544 */
+  --light-gray: 210 14% 90%; /* #E5E7EB  */
+  --pure-white: 0 0% 100%; /* #FFFFFF  */
+  --deep-black: 0 0% 0%; /* #000000 */
+  --soft-cream: 39 100% 97%; /* #FFF6EB */
+  --blue-midnight: 211 46% 37%; /* #384B85 */
+  --off-white: 0 0% 94%; /* #EFEFEF */
+  --slate-gray: 210 5% 42%; /* #6B7280 */
+  --cool-gray: 210 6% 63%; /* #9CA3AF */
 }
