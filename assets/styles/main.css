@@ -558,3 +558,30 @@ html {
   font-family: "Source Sans 3", "sans-serif";
 }
 
+* {
+  --tw-text-opacity: 1;
+  color: hsl(var(--dark-charcoal) / var(--tw-text-opacity));
+}
+
+.footer-links-group {
+  width: 100%;
+}
+
+.footer-links-group > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.footer-links-group li {
+  width: 100%;
+}
+
+.footer-links-group li a {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: hsl(var(--slate-gray) / var(--tw-text-opacity));
+}

@@ -45,5 +45,20 @@
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#EE6544" />
   </head>
-  <body></body>
+  <body>
+    <header id="header"></header>
+    <header id="footer"></header>
+
+    <script>
+      async function loadComponent(componentId, filePath) {
+        const container = document.getElementById(componentId);
+        const response = await fetch(filePath);
+        const html = await response.text();
+        container.innerHTML = html;
+      }
+
+      loadComponent("header", "./components/header.html");
+      loadComponent("footer", "./components/footer.html");
+    </script>
+  </body>
 </html>

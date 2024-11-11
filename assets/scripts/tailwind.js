@@ -1,5 +1,11 @@
 tailwind.config = {
   theme: {
+    container: {
+      center: true,
+      screens: {
+        xl: "1360px",
+      },
+    },
     fontFamily: {
       sans: ["Source Sans 3", "sans-serif"],
       serif: ["Lora", "serif"],

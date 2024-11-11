@@ -8,3 +8,18 @@
   }
 }
 
+* {
+  @apply text-dark-charcoal;
+}
+
+.footer-links-group {
+  @apply space-y-4 w-full;
+}
+
+.footer-links-group li {
+  @apply w-full;
+}
+
+.footer-links-group li a {
+  @apply text-base text-slate-gray w-full block;
+}
