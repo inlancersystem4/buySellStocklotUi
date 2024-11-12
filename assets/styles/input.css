@@ -23,3 +23,43 @@
 .footer-links-group li a {
   @apply text-base text-slate-gray w-full block;
 }
+
+.categories-page-list {
+  @apply space-y-16;
+}
+
+.categories-page-list li {
+  @apply space-y-6;
+}
+
+.categories-page-list li .header {
+  @apply rounded-full w-full p-2.5 flex items-center gap-2 border border-solid border-burnt-orange bg-soft-cream;
+}
+
+.categories-page-list li .header .img-section {
+  @apply relative min-w-[90px] min-h-[90px] max-w-[90px] max-h-[90px] rounded-full overflow-hidden;
+}
+
+.categories-page-list li .header .img-section img {
+  @apply absolute inset-0 w-full h-full  object-cover;
+}
+
+.categories-page-list li .header h4 {
+  @apply font-serif text-xl font-bold;
+}
+
+.categories-page-list li .header h6 {
+  @apply text-base;
+}
+
+.categories-page-list li .content {
+  @apply grid  grid-cols-4;
+}
+
+.categories-page-list li .content ul {
+  @apply space-y-6;
+}
+
+.categories-page-list li .content ul li {
+  @apply text-base;
+}
