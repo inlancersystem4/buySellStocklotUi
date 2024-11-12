@@ -610,7 +610,7 @@ html {
   border-color: hsl(var(--burnt-orange) / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: hsl(var(--soft-cream) / var(--tw-bg-opacity));
-  padding: 0.625rem;
+  padding: 0.5rem;
 }
 
 .categories-page-list li .header .img-section {

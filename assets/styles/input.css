@@ -33,7 +33,7 @@
 }
 
 .categories-page-list li .header {
-  @apply rounded-full w-full p-2.5 flex items-center gap-2 border border-solid border-burnt-orange bg-soft-cream;
+  @apply rounded-full w-full p-2 flex items-center gap-2 border border-solid border-burnt-orange bg-soft-cream;
 }
 
 .categories-page-list li .header .img-section {
