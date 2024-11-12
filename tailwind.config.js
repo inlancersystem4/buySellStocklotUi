@@ -5,7 +5,7 @@ module.exports = {
     container: {
       center: true,
       screens: {
-        xl: "1360px",
+        xl: "1280px",
       },
     },
     fontFamily: {

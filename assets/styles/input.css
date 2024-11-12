@@ -194,3 +194,47 @@
 .page.blog-list li:nth-last-child(1) {
   @apply pb-0;
 }
+
+.faq-sidebar {
+  @apply space-y-4 min-w-[308px] max-w-[308px];
+}
+
+.faq-sidebar a {
+  @apply w-full bg-pure-white border border-solid border-light-gray py-4 flex items-center justify-center text-2xl;
+}
+
+.faq-section {
+  @apply space-y-6;
+}
+
+.faq-section .title {
+  @apply font-bold text-4xl font-serif;
+}
+
+.faq-section .faq-list {
+  @apply divide-y divide-light-gray w-full;
+}
+
+.faq-section .faq-list .faq {
+  @apply py-6;
+}
+
+.faq-section .faq-list .faq:nth-child(1) {
+  @apply pt-0;
+}
+
+.faq-section .faq-list .faq:nth-last-child(1) {
+  @apply pb-0;
+}
+
+.faq-section .faq-list .faq .faq-title {
+  @apply text-2xl;
+}
+
+.faq-section .faq-list .faq .faq-description {
+  @apply text-xl text-slate-gray mt-3;
+}
+
+.faq-section .faq-list .faq .faq-btn {
+  @apply min-w-12 min-h-12 max-w-12 max-h-12 flex  items-center justify-center border border-solid border-light-gray rounded-full;
+}

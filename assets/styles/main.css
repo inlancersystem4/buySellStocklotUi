@@ -913,3 +913,97 @@ html {
 .page.blog-list li:nth-last-child(1) {
   padding-bottom: 0px;
 }
+
+.faq-sidebar {
+  min-width: 308px;
+  max-width: 308px;
+}
+
+.faq-sidebar > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.faq-sidebar a {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--light-gray) / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--pure-white) / var(--tw-bg-opacity));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.faq-section > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
+.faq-section .title {
+  font-family: Lora, serif;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+.faq-section .faq-list {
+  width: 100%;
+}
+
+.faq-section .faq-list > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+  --tw-divide-opacity: 1;
+  border-color: hsl(var(--light-gray) / var(--tw-divide-opacity));
+}
+
+.faq-section .faq-list .faq {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.faq-section .faq-list .faq:nth-child(1) {
+  padding-top: 0px;
+}
+
+.faq-section .faq-list .faq:nth-last-child(1) {
+  padding-bottom: 0px;
+}
+
+.faq-section .faq-list .faq .faq-title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.faq-section .faq-list .faq .faq-description {
+  margin-top: 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: hsl(var(--slate-gray) / var(--tw-text-opacity));
+}
+
+.faq-section .faq-list .faq .faq-btn {
+  display: flex;
+  max-height: 3rem;
+  min-height: 3rem;
+  min-width: 3rem;
+  max-width: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--light-gray) / var(--tw-border-opacity));
+}
