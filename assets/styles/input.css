@@ -105,7 +105,7 @@
 }
 
 .author-details .avatar {
-  @apply min-w-12 min-h-12 max-w-12 max-h-12 rounded-full relative;
+  @apply min-w-12 min-h-12 max-w-12 max-h-12 rounded-full relative overflow-hidden;
 }
 
 .author-details .avatar img {
@@ -126,4 +126,71 @@
 
 .pagination .page .page-item.active {
   @apply border-burnt-orange bg-[#FFE7E1] text-burnt-orange;
+}
+
+.breadcrumb {
+  @apply flex items-center gap-3;
+}
+
+.breadcrumb li {
+  @apply text-base text-burnt-orange;
+}
+
+.blog-image {
+  @apply w-full  rounded-xl overflow-hidden relative pt-[440px];
+}
+
+.blog-image img {
+  @apply absolute inset-0 w-full h-full object-cover;
+}
+
+.page.blog-content {
+  @apply space-y-8;
+}
+
+.page.blog-content h1 {
+  @apply font-serif font-bold text-4xl;
+}
+
+.page.blog-content p {
+  @apply text-base text-slate-gray;
+}
+
+.page.blog-content h2,
+.page.blog-content h3,
+.page.blog-content h4,
+.page.blog-content h5 {
+  @apply font-semibold text-2xl py-4;
+}
+
+.page.blog-list {
+  @apply divide-y divide-light-gray;
+}
+
+.page.blog-list li {
+  @apply w-full flex items-center gap-6 py-6;
+}
+
+.page.blog-list li .img-section {
+  @apply relative  !min-h-[112px] !max-h-[112px] !min-w-[176px] !max-w-[176px] !pt-0 rounded-md overflow-hidden;
+}
+
+.page.blog-list li .img-section img {
+  @apply absolute inset-0 w-full h-full object-cover;
+}
+
+.page.blog-list li h4 {
+  @apply font-serif font-bold text-xl;
+}
+
+.page.blog-list li h6 {
+  @apply text-base text-slate-gray;
+}
+
+.page.blog-list li:nth-child(1) {
+  @apply pt-0;
+}
+
+.page.blog-list li:nth-last-child(1) {
+  @apply pb-0;
 }
