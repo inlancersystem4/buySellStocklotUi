@@ -659,3 +659,136 @@ html {
   font-size: 1rem;
   line-height: 1.5rem;
 }
+
+.blog-list {
+  width: 100%;
+}
+
+.blog-list > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+  --tw-divide-opacity: 1;
+  border-color: hsl(var(--light-gray) / var(--tw-divide-opacity));
+}
+
+.blog-list li {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  gap: 2rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.blog-list li:nth-child(1) {
+  padding-top: 0px;
+}
+
+.blog-list li:nth-last-child(1) {
+  padding-bottom: 0px;
+}
+
+.blog-list li .img-section {
+  position: relative;
+  width: 100%;
+  min-width: 695px;
+  max-width: 695px;
+  border-radius: 0.375rem;
+  padding-top: 391px;
+}
+
+.blog-list li .img-section img {
+  position: absolute;
+  inset: 0px;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blog-list li .blog-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.blog-list li .blog-content h4 {
+  font-family: Lora, serif;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+.blog-list li .blog-content h6 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: hsl(var(--slate-gray) / var(--tw-text-opacity));
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.author-details .avatar {
+  position: relative;
+  max-height: 3rem;
+  min-height: 3rem;
+  min-width: 3rem;
+  max-width: 3rem;
+  border-radius: 9999px;
+}
+
+.author-details .avatar img {
+  position: absolute;
+  inset: 0px;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.pagination {
+  display: flex;
+  align-items: stretch;
+  gap: 2rem;
+}
+
+.pagination .page-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--light-gray) / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+  padding: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.pagination .page .page-item {
+  display: flex;
+  max-height: 42px;
+  min-height: 42px;
+  min-width: 42px;
+  max-width: 42px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination .page .page-item.active {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--burnt-orange) / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 231 225 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: hsl(var(--burnt-orange) / var(--tw-text-opacity));
+}
