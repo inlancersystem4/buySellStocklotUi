@@ -1,0 +1,118 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Buy and sell stocklots with ease. Find the best deals on wholesale stocklots and bulk purchases."
+    />
+    <meta name="author" content="jeet kasundra" />
+    <meta
+      name="keywords"
+      content="buy stocklot, sell stocklot, wholesale stocklot, bulk purchase, stocklot marketplace, discounted stocklots"
+    />
+
+    <title>Buy Sell Stocklot</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../assets/scripts/tailwind.js"></script>
+
+    <link rel="stylesheet" href="../assets/styles/index.css" />
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+
+    <script src="../assets/scripts/main.js" defer></script>
+
+    <meta property="og:title" content="Buy Sell Stocklot" />
+    <meta
+      property="og:description"
+      content="Buy and sell stocklots with ease. Find the best deals on wholesale stocklots and bulk purchases."
+    />
+    <meta property="og:image" content="./assets/images/meta-image.png" />
+    <meta property="og:url" content="http://buysellstock.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Buy Sell Stocklot" />
+
+    <meta name="twitter:title" content="Buy Sell Stocklot" />
+    <meta
+      name="twitter:description"
+      content="Buy and sell stocklots with ease. Find the best deals on wholesale stocklots and bulk purchases."
+    />
+    <meta name="twitter:image" content="./assets/images/meta-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@xyz" />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#EE6544" />
+  </head>
+  <body>
+    <header id="header"></header>
+    <main>
+      <div class="bg-soft-cream">
+        <div class="container py-14">
+          <div class="space-y-6 max-w-[861px]">
+            <h1 class="text-burnt-orange font-bold font-serif text-[52px]">
+              FAQs
+            </h1>
+            <p class="text-xl">
+              Get answers to some commonly asked questions about Buy Sell Stock
+              Lot business platform. Can’t find what you’re looking for?
+              <a href="#" class="font-bold underline">
+                Contact to our friendly team
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="py-8">
+        <div class="container">
+          <div class="flex items-start gap-16">
+            <aside class="faq-sidebar">
+              <a href="#">Getting started</a>
+            </aside>
+            <div class="space-y-12">
+              <div class="faq-section">
+                <h4 class="title">Getting Started</h4>
+                <ul class="faq-list">
+                  <li class="faq">
+                    <div class="flex items-center justify-between w-full">
+                      <h5 class="faq-title">
+                        How to create a Buy Sell Stock Lock account?
+                      </h5>
+                      <button class="faq-btn"></button>
+                    </div>
+                    <p class="faq-description">
+                      Quis neque, eu et ipsum amet, vel et. Varius integer enim
+                      pellentesque ornare pharetra faucibs arcu. Mauris blandit
+                      egestas nibh. Quis neque, eu et ipsum. Quis neque, eu et
+                      ipsum amet, vel et. Varius integer enim pellentesque
+                      ornare pharetra faucibs arcu. Mauris blandit egestas nibh.
+                      Quis neque, eu et ipsum. Quis neque, eu et ipsum amet, vel
+                      et. Varius integer enim pellentesque ornare pharetra
+                      faucibs arcu. Mauris blandit egestas nibh. Quis neque, eu
+                      et ipsum. Quis neque, eu et ipsum amet, vel et. Varius
+                      integer enim pellentesque ornare pharetra faucibs arcu.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <header id="footer"></header>
+
+    <script>
+      async function loadComponent(componentId, filePath) {
+        const container = document.getElementById(componentId);
+        const response = await fetch(filePath);
+        const html = await response.text();
+        container.innerHTML = html;
+      }
+
+      loadComponent("header", "../components/header.html");
+      loadComponent("footer", "../components/footer.html");
+    </script>
+  </body>
+</html>

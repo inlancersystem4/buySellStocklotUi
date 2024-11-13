@@ -238,3 +238,72 @@
 .faq-section .faq-list .faq .faq-btn {
   @apply min-w-12 min-h-12 max-w-12 max-h-12 flex  items-center justify-center border border-solid border-light-gray rounded-full;
 }
+
+.categories-box {
+  @apply border border-solid border-light-gray w-full rounded-full flex items-center gap-2 p-2;
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+  -moz-box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+  box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+}
+
+.categories-box .img-section {
+  @apply min-w-[90px] min-h-[90px] max-w-[90px] max-h-[90px] rounded-full relative overflow-hidden;
+}
+
+.categories-box .img-section img {
+  @apply absolute inset-0 w-full h-full object-cover;
+}
+
+.categories-box h4 {
+  @apply font-bold text-xl font-serif;
+}
+
+.categories-box p {
+  @apply text-base;
+}
+
+.impact-number-box {
+  @apply bg-pure-white px-7 py-6 flex items-center gap-5 rounded-2xl;
+  -webkit-box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.12);
+}
+
+.impact-number-box h5 {
+  @apply font-bold font-serif text-5xl text-burnt-orange;
+}
+
+.impact-number-box p {
+  @apply text-xl mt-0.5;
+}
+
+.impact-number-box .svg-box {
+  @apply min-w-[84px] min-h-[84px] max-w-[84px] max-h-[84px] flex items-center justify-center rounded-md bg-burnt-orange;
+}
+
+.blog-box {
+  @apply border border-solid border-light-gray rounded-xl divide-y divide-light-gray overflow-hidden;
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+  -moz-box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+  box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+}
+
+.blog-box .img-section {
+  @apply w-full relative pt-[216px] overflow-hidden;
+}
+
+.blog-box .img-section img {
+  @apply absolute inset-0 w-full h-full object-cover;
+}
+
+.blog-box .content {
+  @apply py-6 px-[26px] space-y-8;
+}
+
+.blog-box .content .blog-title {
+  @apply font-bold font-serif text-xl;
+}
+
+.blog-box .content .blog-description {
+  @apply text-base text-slate-gray;
+}
