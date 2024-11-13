@@ -348,3 +348,31 @@
 .contact-count-list li p {
   @apply text-xl;
 }
+
+.step-list {
+  @apply flex items-stretch justify-center gap-8;
+}
+
+.step-list .step-box {
+  @apply border border-solid border-blue-midnight bg-soft-cream rounded-2xl min-w-[308px] max-w-[308px] overflow-hidden;
+}
+
+.step-list .step-box .header {
+  @apply bg-blue-midnight py-2 text-center;
+}
+
+.step-list .step-box .header h4 {
+  @apply font-bold text-5xl text-soft-cream uppercase;
+}
+
+.step-list .step-box .content {
+  @apply flex flex-col gap-3 items-center justify-start p-8;
+}
+
+.step-list .step-box .content .step-title {
+  @apply font-bold font-serif text-center text-2xl;
+}
+
+.step-list .step-box .content .step-description {
+  @apply text-xl text-center;
+}
