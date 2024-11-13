@@ -307,3 +307,44 @@
 .blog-box .content .blog-description {
   @apply text-base text-slate-gray;
 }
+
+.location-details {
+  @apply space-y-6 w-full max-w-[348px];
+}
+
+.location-details li {
+  @apply flex items-start gap-2;
+}
+
+.location-details li p,
+.location-details li a {
+  @apply text-xl text-deep-black;
+}
+
+.location-details li .icon {
+  @apply min-w-12 min-h-12 max-w-12 max-h-12 flex items-center justify-center rounded-md bg-burnt-orange;
+}
+
+.contact-count-list {
+  @apply w-full divide-y divide-blue-midnight;
+}
+
+.contact-count-list li {
+  @apply py-4 flex items-end gap-4;
+}
+
+.contact-count-list li:nth-child(1) {
+  @apply pt-0;
+}
+
+.contact-count-list li:nth-last-child(1) {
+  @apply pb-0;
+}
+
+.contact-count-list li h6 {
+  @apply font-bold font-serif text-5xl text-blue-midnight;
+}
+
+.contact-count-list li p {
+  @apply text-xl;
+}
