@@ -425,3 +425,31 @@
 .about-box-list li .icon {
   @apply min-w-12 min-h-12 max-w-12 max-h-12 bg-burnt-orange rounded-md flex items-center justify-center;
 }
+
+.role-list {
+  @apply divide-y divide-light-gray;
+}
+
+.role-list li {
+  @apply py-6 flex items-center justify-between w-full;
+}
+
+.role-list li:nth-child(1) {
+  @apply pt-0;
+}
+
+.role-list li:nth-last-child(1) {
+  @apply pb-0;
+}
+
+.role-list li button {
+  @apply font-semibold text-base px-12 py-3 bg-burnt-orange text-pure-white rounded-lg;
+}
+
+.role-list li h4 {
+  @apply font-semibold text-2xl w-6/12;
+}
+
+.role-list li p {
+  @apply text-xl w-2/5;
+}

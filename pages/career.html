@@ -1,0 +1,118 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Buy and sell stocklots with ease. Find the best deals on wholesale stocklots and bulk purchases."
+    />
+    <meta name="author" content="jeet kasundra" />
+    <meta
+      name="keywords"
+      content="buy stocklot, sell stocklot, wholesale stocklot, bulk purchase, stocklot marketplace, discounted stocklots"
+    />
+
+    <title>Buy Sell Stocklot</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../assets/scripts/tailwind.js"></script>
+
+    <link rel="stylesheet" href="../assets/styles/index.css" />
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+
+    <script src="../assets/scripts/main.js" defer></script>
+
+    <meta property="og:title" content="Buy Sell Stocklot" />
+    <meta
+      property="og:description"
+      content="Buy and sell stocklots with ease. Find the best deals on wholesale stocklots and bulk purchases."
+    />
+    <meta property="og:image" content="./assets/images/meta-image.png" />
+    <meta property="og:url" content="http://buysellstock.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Buy Sell Stocklot" />
+
+    <meta name="twitter:title" content="Buy Sell Stocklot" />
+    <meta
+      name="twitter:description"
+      content="Buy and sell stocklots with ease. Find the best deals on wholesale stocklots and bulk purchases."
+    />
+    <meta name="twitter:image" content="./assets/images/meta-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@xyz" />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#EE6544" />
+  </head>
+  <body>
+    <header id="header"></header>
+    <main>
+      <div class="w-full bg-soft-cream py-14">
+        <div class="container">
+          <div class="space-y-6 max-w-[861px]">
+            <h1 class="text-burnt-orange font-serif font-bold text-[52px]">
+              Join our team
+            </h1>
+            <h3 class="text-xl">
+              Join our mission to transform surplus stock into opportunity. Help
+              businesses buy, sell, and thrive in a marketplace built for
+              growth.
+            </h3>
+          </div>
+        </div>
+      </div>
+      <section class="py-8 container space-y-11">
+        <div class="flex items-center justify-between w-full">
+          <h2 class="font-bold text-4xl font-serif">Open roles</h2>
+          <div class="flex items-stretch gap-2"></div>
+        </div>
+        <ul class="role-list">
+          <li>
+            <h4>Communication & Marketing</h4>
+            <p>3 open positions</p>
+            <button>Apply</button>
+          </li>
+          <li>
+            <h4>Customer Support Service</h4>
+            <p>6 open positions</p>
+            <button>Apply</button>
+          </li>
+        </ul>
+      </section>
+      <div class="w-full bg-soft-cream py-14">
+        <div class="container">
+          <div class="space-y-6 text-center">
+            <div class="space-y-4">
+              <h1 class="text-burnt-orange font-serif font-bold text-[52px]">
+                Nothing for you?
+              </h1>
+              <h3 class="text-xl">
+                Nothing here for you? Share your CV, and let’s explore future
+                opportunities together!
+              </h3>
+            </div>
+            <button
+              class="font-semibold text-base py-3 px-9 bg-burnt-orange text-pure-white rounded-lg"
+            >
+              Send your CV
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+
+    <script>
+      async function loadComponent(componentId, filePath) {
+        const container = document.getElementById(componentId);
+        const response = await fetch(filePath);
+        const html = await response.text();
+        container.innerHTML = html;
+      }
+
+      loadComponent("header", "../components/header.html");
+      loadComponent("footer", "../components/footer.html");
+    </script>
+  </body>
+</html>

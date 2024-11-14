@@ -1408,3 +1408,56 @@ html {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--burnt-orange) / var(--tw-bg-opacity));
 }
+
+.role-list > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+  --tw-divide-opacity: 1;
+  border-color: hsl(var(--light-gray) / var(--tw-divide-opacity));
+}
+
+.role-list li {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.role-list li:nth-child(1) {
+  padding-top: 0px;
+}
+
+.role-list li:nth-last-child(1) {
+  padding-bottom: 0px;
+}
+
+.role-list li button {
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--burnt-orange) / var(--tw-bg-opacity));
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: hsl(var(--pure-white) / var(--tw-text-opacity));
+}
+
+.role-list li h4 {
+  width: 50%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.role-list li p {
+  width: 40%;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
