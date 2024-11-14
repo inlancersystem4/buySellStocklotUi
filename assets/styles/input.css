@@ -376,3 +376,52 @@
 .step-list .step-box .content .step-description {
   @apply text-xl text-center;
 }
+
+.stories-box {
+  @apply border border-solid border-[#D6D8DE] rounded-lg p-6 space-y-2.5 border-b-8 border-b-burnt-orange;
+}
+
+.stories-slider .swiper-wrapper {
+  @apply h-fit;
+}
+
+.stories-button-next,
+.stories-button-prev {
+  @apply min-w-14 min-h-14 max-w-14 max-h-14 rounded-full bg-burnt-orange flex items-center justify-center;
+}
+
+.stories-pagination {
+  @apply !w-fit !translate-x-0 flex items-center;
+}
+
+.stories-pagination .swiper-pagination-bullet {
+  background-color: transparent;
+  @apply min-w-3 min-h-3 max-w-3 max-h-3 border border-solid border-burnt-orange;
+}
+
+.stories-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  @apply bg-burnt-orange min-w-5 min-h-5 max-w-5 max-h-5;
+}
+
+.about-box-list {
+  @apply grid grid-cols-3 gap-8;
+}
+
+.about-box-list li {
+  @apply border border-solid border-light-gray p-5 rounded-lg space-y-5;
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+  -moz-box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+  box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+}
+
+.about-box-list li h6 {
+  @apply font-bold font-serif text-xl;
+}
+
+.about-box-list li p {
+  @apply text-base;
+}
+
+.about-box-list li .icon {
+  @apply min-w-12 min-h-12 max-w-12 max-h-12 bg-burnt-orange rounded-md flex items-center justify-center;
+}
