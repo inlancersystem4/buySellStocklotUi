@@ -1461,3 +1461,20 @@ html {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+
+.career-content h2,
+.career-content h3,
+.career-content h4,
+.career-content h5 {
+  font-family: Lora, serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.career-content h6,
+.career-content p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: hsl(var(--slate-gray) / var(--tw-text-opacity));
+}

@@ -453,3 +453,15 @@
 .role-list li p {
   @apply text-xl w-2/5;
 }
+
+.career-content h2,
+.career-content h3,
+.career-content h4,
+.career-content h5 {
+  @apply font-serif font-bold text-[28px];
+}
+
+.career-content h6,
+.career-content p {
+  @apply text-slate-gray text-xl;
+}

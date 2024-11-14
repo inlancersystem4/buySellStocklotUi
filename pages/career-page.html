@@ -1,0 +1,146 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Buy and sell stocklots with ease. Find the best deals on wholesale stocklots and bulk purchases."
+    />
+    <meta name="author" content="jeet kasundra" />
+    <meta
+      name="keywords"
+      content="buy stocklot, sell stocklot, wholesale stocklot, bulk purchase, stocklot marketplace, discounted stocklots"
+    />
+
+    <title>Buy Sell Stocklot</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../assets/scripts/tailwind.js"></script>
+
+    <link rel="stylesheet" href="../assets/styles/index.css" />
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+
+    <script src="../assets/scripts/main.js" defer></script>
+
+    <meta property="og:title" content="Buy Sell Stocklot" />
+    <meta
+      property="og:description"
+      content="Buy and sell stocklots with ease. Find the best deals on wholesale stocklots and bulk purchases."
+    />
+    <meta property="og:image" content="./assets/images/meta-image.png" />
+    <meta property="og:url" content="http://buysellstock.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Buy Sell Stocklot" />
+
+    <meta name="twitter:title" content="Buy Sell Stocklot" />
+    <meta
+      name="twitter:description"
+      content="Buy and sell stocklots with ease. Find the best deals on wholesale stocklots and bulk purchases."
+    />
+    <meta name="twitter:image" content="./assets/images/meta-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@xyz" />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#EE6544" />
+  </head>
+  <body>
+    <header id="header"></header>
+    <main>
+      <div class="w-full bg-soft-cream py-14">
+        <div class="container">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between w-full">
+              <h1 class="text-burnt-orange font-serif font-bold text-[52px]">
+                Product Designer
+              </h1>
+              <button
+                class="font-semibold text-base py-3 px-9 bg-burnt-orange text-pure-white rounded-lg"
+              >
+                Apply now
+                <svg
+                  class="ml-2 inline-flex"
+                  width="17"
+                  height="16"
+                  viewBox="0 0 17 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.16699 7.33385L14.6337 1.86719"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.1668 4.53594V1.33594H11.9668"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M7.83301 1.33594H6.49967C3.16634 1.33594 1.83301 2.66927 1.83301 6.0026V10.0026C1.83301 13.3359 3.16634 14.6693 6.49967 14.6693H10.4997C13.833 14.6693 15.1663 13.3359 15.1663 10.0026V8.66927"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <h3 class="text-xl">
+              <svg
+                width="28"
+                height="28"
+                class="mr-2 inline-flex"
+                viewBox="0 0 28 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.0004 15.6706C16.0107 15.6706 17.6404 14.0409 17.6404 12.0306C17.6404 10.0203 16.0107 8.39062 14.0004 8.39062C11.99 8.39062 10.3604 10.0203 10.3604 12.0306C10.3604 14.0409 11.99 15.6706 14.0004 15.6706Z"
+                  stroke="#292D32"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M4.22364 9.90761C6.52198 -0.195726 21.4903 -0.184059 23.777 9.91927C25.1186 15.8459 21.432 20.8626 18.2003 23.9659C15.8553 26.2293 12.1453 26.2293 9.78865 23.9659C6.56865 20.8626 2.88198 15.8343 4.22364 9.90761Z"
+                  stroke="#292D32"
+                  stroke-width="1.5"
+                />
+              </svg>
+              Rajkot, Gujarat
+            </h3>
+          </div>
+        </div>
+      </div>
+      <section class="py-12 container space-y-10 career-content">
+        <div class="space-y-6">
+          <h4>About Buy Sell Stock Lot</h4>
+          <p>
+            Anthropic’s mission is to create reliable, interpretable, and
+            steerable AI systems. We want AI to be safe and beneficial for our
+            users and for society as a whole. Our team is a quickly growing
+            group of committed researchers, engineers, policy experts, and
+            business leaders working together to build beneficial AI systems.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer id="footer"></footer>
+
+    <script>
+      async function loadComponent(componentId, filePath) {
+        const container = document.getElementById(componentId);
+        const response = await fetch(filePath);
+        const html = await response.text();
+        container.innerHTML = html;
+      }
+
+      loadComponent("header", "../components/header.html");
+      loadComponent("footer", "../components/footer.html");
+    </script>
+  </body>
+</html>
