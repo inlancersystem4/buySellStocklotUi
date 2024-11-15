@@ -18,8 +18,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="../assets/scripts/tailwind.js"></script>
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="../assets/styles/index.css" />
     <link rel="stylesheet" href="../assets/styles/main.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="../assets/scripts/main.js" defer></script>
 
@@ -78,7 +85,73 @@
                 </li>
               </ul>
             </div>
-            <div></div>
+            <div>
+              <form action="#" class="contact-form">
+                <div class="grid grid-cols-2 gap-6">
+                  <div class="input-group">
+                    <label for="fName">First name</label>
+                    <input
+                      type="text"
+                      id="fName"
+                      placeholder="Enter your first name"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="lName">Last name</label>
+                    <input
+                      type="text"
+                      id="lName"
+                      placeholder="Enter your last name"
+                    />
+                  </div>
+                </div>
+                <div class="grid grid-cols-2 gap-6">
+                  <div class="input-group">
+                    <label for="email">Work email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Enter your last name"
+                    />
+                  </div>
+                </div>
+                <div class="grid grid-cols-2 gap-6">
+                  <div class="input-group">
+                    <label for="business_name">Business name</label>
+                    <input
+                      type="text"
+                      id="business_name"
+                      placeholder="Enter your last name"
+                    />
+                  </div>
+                </div>
+                <div class="input-group">
+                  <label for="comments"
+                    >Anything else you would like us to know?</label
+                  >
+                  <textarea
+                    id="comments"
+                    placeholder="Please share your views here..."
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="w-full text-pure-white bg-burnt-orange rounded-lg py-3 px-4"
+                >
+                  Submit
+                </button>
+                <p class="text-base text-slate-gray">
+                  Fields marked with an asterisk (*) are required.
+                </p>
+                <p class="text-base text-slate-gray">
+                  By clicking the “Submit” button above, you acknowledge that
+                  Buy Sell Stock Lot may use the information you provide to
+                  contact you about the Buy Sell Stock Lot products and services
+                  and you agree to be contacted by Buy Sell Stock Lot in
+                  accordance to Buy Sell Stock Lot’s Privacy Policy.
+                </p>
+              </form>
+            </div>
           </div>
         </div>
       </section>
@@ -197,11 +270,140 @@
             stories of growth
           </h6>
           <div class="space-y-3">
-            <h4 class="text-4xl font-serif font-bold">Success stories</h4>
-            <h6 class="text-base">
+            <h1 class="text-4xl font-serif font-bold">Success stories</h1>
+            <h4 class="text-base">
               Listen about the experiences of our satisfied customers and their
               journey with us.
-            </h6>
+            </h4>
+          </div>
+        </div>
+        <div class="space-y-14">
+          <div class="swiper stories-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="stories-box">
+                  <div class="author-details">
+                    <div class="avatar">
+                      <img
+                        src="https://gravatar.com/avatar/8d9293869a3f5c7868c818aec79aa236?s=400&d=robohash&r=x"
+                        alt="Rajesh Mehta"
+                      />
+                    </div>
+                    <div>
+                      <h5 class="text-xl font-bold">Rajesh Mehta</h5>
+                      <h6 class="text-xl text-slate-gray">
+                        16 July, 2024 • 5 min read
+                      </h6>
+                    </div>
+                  </div>
+                  <p class="text-base text-slate-gray">
+                    Quis neque, eu et ipsum amet, vel et. Varius integer enim
+                    pellentesque ornare pharetra faucibs arcu. Mauris blandit
+                    egestas nibh. Quis neque, eu et ipsum amet, vel et. Varius
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="stories-box">
+                  <div class="author-details">
+                    <div class="avatar">
+                      <img
+                        src="https://gravatar.com/avatar/8d9293869a3f5c7868c818aec79aa236?s=400&d=robohash&r=x"
+                        alt="Rajesh Mehta"
+                      />
+                    </div>
+                    <div>
+                      <h5 class="text-xl font-bold">Rajesh Mehta</h5>
+                      <h6 class="text-xl text-slate-gray">
+                        16 July, 2024 • 5 min read
+                      </h6>
+                    </div>
+                  </div>
+                  <p class="text-base text-slate-gray">
+                    Quis neque, eu et ipsum amet, vel et. Varius integer enim
+                    pellentesque ornare pharetra faucibs arcu. Mauris blandit
+                    egestas nibh. Quis neque, eu et ipsum amet, vel et. Varius
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="stories-box">
+                  <div class="author-details">
+                    <div class="avatar">
+                      <img
+                        src="https://gravatar.com/avatar/8d9293869a3f5c7868c818aec79aa236?s=400&d=robohash&r=x"
+                        alt="Rajesh Mehta"
+                      />
+                    </div>
+                    <div>
+                      <h5 class="text-xl font-bold">Rajesh Mehta</h5>
+                      <h6 class="text-xl text-slate-gray">
+                        16 July, 2024 • 5 min read
+                      </h6>
+                    </div>
+                  </div>
+                  <p class="text-base text-slate-gray">
+                    Quis neque, eu et ipsum amet, vel et. Varius integer enim
+                    pellentesque ornare pharetra faucibs arcu. Mauris blandit
+                    egestas nibh. Quis neque, eu et ipsum amet, vel et. Varius
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="stories-box">
+                  <div class="author-details">
+                    <div class="avatar">
+                      <img
+                        src="https://gravatar.com/avatar/8d9293869a3f5c7868c818aec79aa236?s=400&d=robohash&r=x"
+                        alt="Rajesh Mehta"
+                      />
+                    </div>
+                    <div>
+                      <h5 class="text-xl font-bold">Rajesh Mehta</h5>
+                      <h6 class="text-xl text-slate-gray">
+                        16 July, 2024 • 5 min read
+                      </h6>
+                    </div>
+                  </div>
+                  <p class="text-base text-slate-gray">
+                    Quis neque, eu et ipsum amet, vel et. Varius integer enim
+                    pellentesque ornare pharetra faucibs arcu. Mauris blandit
+                    egestas nibh. Quis neque, eu et ipsum amet, vel et. Varius
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center justify-center gap-10">
+            <div class="stories-button-next">
+              <svg
+                width="22"
+                height="16"
+                viewBox="0 0 22 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.292893 7.29289C-0.0976311 7.68342 -0.0976311 8.31658 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292893 7.29289ZM21 9C21.5523 9 22 8.55228 22 8C22 7.44772 21.5523 7 21 7V9ZM1 9L21 9V7L1 7L1 9Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div class="stories-pagination"></div>
+            <div class="stories-button-prev">
+              <svg
+                width="22"
+                height="16"
+                viewBox="0 0 22 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM1 7C0.447716 7 0 7.44772 0 8C0 8.55228 0.447716 9 1 9V7ZM21 7L1 7V9L21 9V7Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </section>
@@ -218,6 +420,21 @@
 
       loadComponent("header", "../components/header.html");
       loadComponent("footer", "../components/footer.html");
+
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+        slidesPerView: 3,
+        spaceBetween: 16,
+        pagination: {
+          el: ".stories-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          prevEl: ".stories-button-next",
+          nextEl: ".stories-button-prev",
+        },
+      });
     </script>
   </body>
 </html>

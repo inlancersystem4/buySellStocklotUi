@@ -1478,3 +1478,52 @@ html {
   --tw-text-opacity: 1;
   color: hsl(var(--slate-gray) / var(--tw-text-opacity));
 }
+
+.contact-form > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.contact-form {
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--pure-white) / var(--tw-bg-opacity));
+  padding: 1.5rem;
+  box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+}
+
+.input-group > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+.input-group label {
+  display: block;
+  font-family: Lora, serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--light-gray) / var(--tw-border-opacity));
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.contact-form .input-group textarea {
+  min-height: 9rem;
+  resize: none;
+}

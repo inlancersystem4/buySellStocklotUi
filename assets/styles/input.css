@@ -465,3 +465,27 @@
 .career-content p {
   @apply text-slate-gray text-xl;
 }
+
+.contact-form {
+  @apply bg-pure-white p-6 rounded-xl space-y-4;
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+  -moz-box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+  box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+}
+
+.input-group {
+  @apply space-y-1;
+}
+
+.input-group label {
+  @apply font-serif text-base font-medium block;
+}
+
+.input-group input,
+.input-group textarea {
+  @apply border border-solid border-light-gray rounded-lg w-full py-3 px-4 text-base;
+}
+
+.contact-form .input-group textarea {
+  @apply min-h-36 resize-none;
+}
