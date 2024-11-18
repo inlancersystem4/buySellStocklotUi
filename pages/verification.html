@@ -67,37 +67,35 @@
         <div class="space-y-8">
           <div class="space-y-6">
             <div class="space-y-4">
-              <h1 class="font-serif font-semibold text-4xl">Reset password</h1>
+              <h1 class="font-serif font-semibold text-4xl">Verification</h1>
               <h4 class="text-base">
-                Please enter your email ID or mobile number for further
-                instructions
+                We sent a code to <b>(+91) 123-456-7890</b> to verify your
+                mobile number
               </h4>
             </div>
             <div class="space-y-8">
               <div class="space-y-4">
                 <div class="input-group">
-                  <label for="password">Password</label>
-                  <input
-                    type="password"
-                    id="password"
-                    placeholder="Enter your new password"
-                  />
-                </div>
-                <div class="input-group">
-                  <label for="re_password">Re-enter password</label>
-                  <input
-                    type="password"
-                    id="re_password"
-                    placeholder="Re-enter your new password"
-                  />
+                  <div class="opt-grid">
+                    <input type="text" maxlength="1" />
+                    <input type="text" maxlength="1" />
+                    <input type="text" maxlength="1" />
+                    <input type="text" maxlength="1" />
+                    <input type="text" maxlength="1" />
+                    <input type="text" maxlength="1" />
+                  </div>
                 </div>
               </div>
               <button
                 disabled
                 class="auth-btn bg-burnt-orange text-pure-white disabled:bg-opacity-30 disabled:text-[#E5FFFE] border-burnt-orange"
               >
-                Reset password
+                Confirm
               </button>
+              <p class="text-center text-base">
+                Didn’t receive the code?
+                <a href="#" class="text-burnt-orange underline">Resend code</a>
+              </p>
             </div>
           </div>
         </div>

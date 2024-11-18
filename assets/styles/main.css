@@ -1608,3 +1608,19 @@ html {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.opt-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.opt-grid input {
+  height: 5rem;
+  padding: 0px;
+  text-align: center;
+  font-family: Lora, serif;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 600;
+}
