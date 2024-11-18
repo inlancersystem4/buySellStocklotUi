@@ -489,3 +489,33 @@
 .contact-form .input-group textarea {
   @apply min-h-36 resize-none;
 }
+
+.custom-select {
+  background-image: url("../images/select-arrow.png");
+  background-position: center right 16px;
+  @apply w-full border border-solid border-light-gray rounded-lg py-3 px-4 bg-no-repeat appearance-none;
+}
+
+.auth-layout {
+  background-image: url("../images/auth-bg.png");
+  @apply w-full h-auto bg-fixed bg-soft-cream bg-cover;
+}
+
+.back-btn {
+  @apply fixed top-6 left-20;
+}
+
+.back-btn button {
+  @apply bg-pure-white min-w-12 min-h-12 max-w-12 max-h-12 flex items-center justify-center border border-solid border-burnt-orange rounded-full;
+}
+
+.auth-form {
+  @apply bg-pure-white min-h-dvh max-w-[491px] py-20 px-9 mx-auto;
+  -webkit-box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form .auth-btn {
+  @apply w-full rounded-lg flex items-center justify-center py-3 px-4 border gap-4 border-solid;
+}
